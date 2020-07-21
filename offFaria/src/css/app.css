@@ -19,7 +19,10 @@ button:focus {
 }
 
 body {
-  min-height: 100vh;
+  position: absolute;
+  top: 0px; /* Header Height */
+  bottom: 0px; /* Footer Height */
+  width: 100%;
   display: flex;
   align-items: start;
   flex-direction: column;
