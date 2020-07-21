@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#534666">
+  <title>Where's my money</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/app.css">
+  <link rel="stylesheet" href="./src/css/primitive.css">
+  <link rel="manifest" href="./manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+      });
+    }
+  </script>
+</head>
+
+<body class="home">
+  <div class="small-container">
+    <div class="main-image-home">
+      <img src="src/images/logoHome.png" />
+    </div>
+    <div class="main-menu-home">
+      <ul>
+        <li><a href="neverHaveIever.html">Eu Nunca</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="./src/js/scriptHome.js"></script>
+</body>
+
+</html>
