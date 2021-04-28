@@ -13,9 +13,11 @@ Trabalho como Desenvolvedor Front-end desde 2014 e também UI/UX Designer como h
 
 ## ⚡️ Jogo Rápido
 
+<img width="239" height="239" src="https://guilhermerodpais.github.io/guilhermerodpais/images/about-images/avatar.png" align=right>
+
 - 🧑‍💼 Atualmente atuo como Team Leader na Seidor Brasil
 - 🧑‍🚀 Estudando acessibilidade e usabilidade
-<img width="239" height="239" src="https://guilhermerodpais.github.io/guilhermerodpais/images/about-images/avatar.png" align=right>
+
 - <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">  Gosto de trabalhar com:
   - 💻 Front-end / React
   - 🖌️ Design
@@ -31,7 +33,7 @@ Trabalho como Desenvolvedor Front-end desde 2014 e também UI/UX Designer como h
 <details>
   <summary>Alguns extras técnicos 😄</summary>
 
-### ⚙️ Ferramentas, Frameworks, IDE's...
+### ⚙️ Some Tool and Tech I use
 <code><img height="30" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
 <code><img height="30" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
 <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
