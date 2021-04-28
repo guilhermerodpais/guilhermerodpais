@@ -31,7 +31,7 @@ Trabalho como Desenvolvedor Front-end desde 2014 e também UI/UX Designer como h
 <details>
   <summary>Alguns extras técnicos 😄</summary>
 
-### ⚙️ Some Tool and Tech I use
+### ⚙️ Ferramentas, Frameworks, IDE's...
 <code><img height="30" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
 <code><img height="30" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
 <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
