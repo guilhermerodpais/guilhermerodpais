@@ -9,19 +9,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - uses: actions/setup-node@v3
         with:
-          # update the Node version to meet your needs
-          node-version: 16
-          cache: npm
+          node-version: 'v16.13.2'
+          registry-url: 'https://registry.npmjs.org'
 
-      - name: Build
+      - name: Install Yarn
+        run: npm install -g yarn
+
+      - name: Install and Build
         run: |
-          npm ci
-          npm run build
-          npm run export
+          yarn install --frozen-lockfile
+          yarn build
+          yarn export
           touch out/.nojekyll
 
       - name: Deploy
