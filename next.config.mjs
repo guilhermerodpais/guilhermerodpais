@@ -30,10 +30,6 @@ const config = {
    *
    * @see https://github.com/vercel/next.js/issues/41980
    */
-  i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
-  },
   images: {
     loader: "imgix",
     path: 'the "domain" of your Imigix source',
