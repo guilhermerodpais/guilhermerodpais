@@ -6,7 +6,7 @@ await import("./src/env.mjs");
 
 const isGithubActions = process?.env?.GITHUB_ACTIONS || false;
 
-const repo = "guilhermerodpais-app";
+const repo = "guilhermerodpais";
 let assetPrefix = `/${repo}/`;
 let basePath = `/${repo}`;
 
