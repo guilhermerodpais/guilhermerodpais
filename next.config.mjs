@@ -12,8 +12,9 @@ let basePath = `/${repo}`;
 
 if (isGithubActions) {
   // trim off `<owner>/`
-  if (process?.env?.GITHUB_REPOSITORY)
-  const repo = process?.env?.GITHUB_REPOSITORY.replace(/.*?\//, "");
+  if (process?.env?.GITHUB_REPOSITORY) {
+    const repo = process?.env?.GITHUB_REPOSITORY.replace(/.*?\//, "");
+  }
 
   assetPrefix = `/${repo}/`;
   basePath = `/${repo}`;
