@@ -4,15 +4,15 @@
  */
 await import("./src/env.mjs");
 
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
+const isGithubActions = process?.env?.GITHUB_ACTIONS || false;
 
-const repo = "guilhermerodpais-app";
+const repo = "guilhermerodpais";
 let assetPrefix = `/${repo}/`;
 let basePath = `/${repo}`;
 
 if (isGithubActions) {
   // trim off `<owner>/`
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
+  const repo = process?.env?.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
   assetPrefix = `/${repo}/`;
   basePath = `/${repo}`;
