@@ -7,8 +7,8 @@ await import("./src/env.mjs");
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 const repo = "guilhermerodpais-app";
-const assetPrefix = `/${repo}/`;
-const basePath = `/${repo}`;
+let assetPrefix = `/${repo}/`;
+let basePath = `/${repo}`;
 
 if (isGithubActions) {
   // trim off `<owner>/`
