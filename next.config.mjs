@@ -6,9 +6,11 @@ await import("./src/env.mjs");
 
 const isGithubActions = process?.env?.GITHUB_ACTIONS || false;
 
-const repo = "guilhermerodpais";
+const repo = "guilhermerodpais-app";
 let assetPrefix = `/${repo}/`;
 let basePath = `/${repo}`;
+
+const isProd = process.env.NODE_ENV === "production";
 
 if (isGithubActions) {
   // trim off `<owner>/`
@@ -23,8 +25,8 @@ if (isGithubActions) {
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  assetPrefix: isProd ? assetPrefix : '',
+  basePath: isProd ? basePath : '',
   /**
    * If you are using `appDir` then you must comment the below `i18n` config out.
    *
