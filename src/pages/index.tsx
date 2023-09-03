@@ -9,7 +9,7 @@ const App: NextPage = () => {
   return (
     <>
       <Head>
-        <title>My page title</title>
+        <title>Coming Soon</title>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Raleway"
